@@ -1,0 +1,191 @@
+
+**Part I**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ mkdir galaxy-far-far-away
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ cd galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away
+$ touch command.txt
+
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd death_star/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ touch darth_vader.txt && princess_leia.txt && storm_tropper.txt
+bash: princess_leia.txt: command not found
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ touch darth_vader.txt , princess_leia.txt, storm_tropper.txt
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ cd galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ mkdir tatooine
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd tatooine
+
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine (main)
+$ touch luke.txt ben_kenobi.txt
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine (main)
+$ mkdir millenium_falcon && cd millenium_falcon
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine/millenium_falcon (main)
+$ touch han_solo.txt chewbaca.txt
+
+
+
+*Part II: rename*
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine/millenium_falcon (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine (main)
+$ mv ben_kenobi.txt obi-wan.txt
+
+
+
+
+**Part II: copy**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cp death_star/storm_tropper.txt tatooine/
+
+
+**Part IV**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd tatooine/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine (main)
+$ mv luke.txt millenium_falcon/ && mv obi-wan.txt millenium_falcon/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/tatooine (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd .. 
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ mv galaxy-far-far-away/tatooine/millenium_falcon/ galaxy-far-far-away/death_star/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ mv galaxy-far-far-away/death_star/princess_leia.txt  galaxy-far-far-away/death_star/millenium_falcon/
+
+
+
+
+**Part V**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ cd galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd death_star/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ cd millenium_falcon/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star/millenium_falcon (main)
+$ rm obi-wan.txt
+
+
+
+
+**Part VI**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ cd galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ mkdir yavin_4
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ mv death_star/millenium_falcon/ yavin_4
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd yavin_4/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/yavin_4 (main)
+$ mkdir x_wing
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/yavin_4 (main)
+$ cd .. 
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ mv yavin_4/millenium_falcon/princess_leia.txt yavin_4/ && mv yavin_4/millenium_falcon/luke.txt  yavin_4/x_wing/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd .. 
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ mv galaxy-far-far-away/yavin_4/millenium_falcon/ galaxy-far-far-away/ && mv galaxy-far-far-away/yavin_4/x_wing/ galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ cd galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd death_star/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ mkdir tie_fighter_1 tie_fighter_2 tie_fighter_3
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ mv darth_vader.txt tie_fighter_1
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ cp storm_tropper.txt tie_fighter_2 && cp storm_tropper.txt tie_fighter_3
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/death_star (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd ..
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ mv galaxy-far-far-away/death_star/tie_fighter_1 galaxy-far-far-away/ && mv galaxy-far-far-away/death_star/tie_fighter_2 galaxy-far-far-away/ && mv galaxy-far-far-away/death_star/tie_fighter_3 galaxy-far-far-away/
+
+
+
+**Part VII**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2
+$ cd galaxy-far-far-away/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ rm -r tie_fighter_2 tie_fighter_3
+
+
+**Part VIII**
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ cd x_wing/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/x_wing (main)
+$ touch the_force.txt
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away/x_wing (main)
+$ cd .. 
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ rm -r death_star/
+
+angel@DESKTOP-FDIG735 MINGW64 ~/OneDrive - Hunter - CUNY/PerScholas/Labs/w2_d2/galaxy-far-far-away (main)
+$ mv x_wing/ yavin_4/ && mv millenium_falcon/ yavin_4/
+
